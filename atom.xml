@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://kallis.gitee.io/bolg</id>
+    <id>https://kallis.gitee.io</id>
     <title>Gridea</title>
-    <updated>2021-04-17T16:07:51.343Z</updated>
+    <updated>2021-04-17T16:24:12.139Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://kallis.gitee.io/bolg"/>
-    <link rel="self" href="https://kallis.gitee.io/bolg/atom.xml"/>
+    <link rel="alternate" href="https://kallis.gitee.io"/>
+    <link rel="self" href="https://kallis.gitee.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://kallis.gitee.io/bolg/images/avatar.png</logo>
-    <icon>https://kallis.gitee.io/bolg/favicon.ico</icon>
+    <logo>https://kallis.gitee.io/images/avatar.png</logo>
+    <icon>https://kallis.gitee.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://kallis.gitee.io/bolg/post/hello-gridea/</id>
-        <link href="https://kallis.gitee.io/bolg/post/hello-gridea/">
+        <id>https://kallis.gitee.io/post/hello-gridea/</id>
+        <link href="https://kallis.gitee.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
