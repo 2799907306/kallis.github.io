@@ -91,7 +91,7 @@
         <a onclick="showAaplayer()"><i style="font-size: 20px;"><img
                     src='https://2799907306.github.io/kallis.github.io/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         <div class="avatar-border">
-            <img src="https://2799907306.github.io/kallis.github.io/images/avatar.png?v=1619843944255" class="avatar">
+            <img src="https://2799907306.github.io/kallis.github.io/images/avatar.png?v=1619962329496" class="avatar">
         </div>
         <div class="sitename">枫</div>
         <span class="describtion" data-text='["温故而知新"]'>&nbsp;</span>
@@ -106,12 +106,15 @@
         <span>社交按钮</span>
         
         
+        <a onclick="showqq()"><i style="font-size: 20px;"><img class="icon"
+                    src="https://2799907306.github.io/kallis.github.io/media/images/QQ.png" alt=""></i></a>
+        
         
         
         
         
     </div>
-    <div id="qq" style="display:none"></div>
+    <div id="qq" style="display:none">3290275184</div>
     
     
     <div class="mchocie describtion">
@@ -185,7 +188,7 @@
                 
                 <div id="sitegotimeDate">载入天数...</div>
                 <div id="sitegotimes">载入时分秒...</div>
-                <div id="cussitetime" style="display:none">02/02/2020</div>
+                <div id="cussitetime" style="display:none">02/02/2021</div>
                 
             </div>
             <div>
@@ -446,7 +449,7 @@
                 <img src="' + talks[i].img + '" class="talkimg"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://2799907306.github.io/kallis.github.io/images/avatar.png?v=1619843944255">\
+                        <img class="intro1" src="https://2799907306.github.io/kallis.github.io/images/avatar.png?v=1619962329496">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -459,7 +462,7 @@
             <div class="talk" v-for="t in talks"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://2799907306.github.io/kallis.github.io/images/avatar.png?v=1619843944255">\
+                        <img class="intro1" src="https://2799907306.github.io/kallis.github.io/images/avatar.png?v=1619962329496">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -1054,8 +1057,8 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 <script>
     function aplayerInit() {
-        var aplayerid = "https://c.y.qq.com/base/fcgi-bin/u?__=MZ6Xv28";
-        var aplayerserver = "netease";
+        var aplayerid = "MZ6Xv28";
+        var aplayerserver = "tencent";
         var aplayerorder = "random";
         var aplayerautoplay = "false";
         var aplayer = $("#myaplayer");
